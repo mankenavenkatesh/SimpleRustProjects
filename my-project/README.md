@@ -15,8 +15,14 @@ Default crates
 
 - If there is lib.rs is defined in src directory, then a library crate with same name as package is automatically added with lib.rs as the crate root.
 
-Module tree always starts from the root of the crate.
 
+Module tree always starts from the root of the crate. Modules can be accessed using 
+- Absolute path - From the create root
+- Relative path - From the current path
+
+
+Run this command to generate module tree (https://rustrepo.com/repo/regexident-cargo-modules)
+- `cargo modules generate tree` 
 
 
 ## References
